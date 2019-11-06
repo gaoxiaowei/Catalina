@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0356947A236BC48C00AF4201 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03569479236BC48C00AF4201 /* AppDelegate.m */; };
+		0356947D236BC48D00AF4201 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0356947C236BC48D00AF4201 /* SceneDelegate.m */; };
+		03569480236BC48D00AF4201 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0356947F236BC48D00AF4201 /* ViewController.m */; };
+		03569483236BC48D00AF4201 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03569481236BC48D00AF4201 /* Main.storyboard */; };
+		03569485236BC48D00AF4201 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03569484236BC48D00AF4201 /* Assets.xcassets */; };
+		03569488236BC48D00AF4201 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03569486236BC48D00AF4201 /* LaunchScreen.storyboard */; };
+		0356948B236BC48D00AF4201 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0356948A236BC48D00AF4201 /* main.m */; };
+		03569494236BCD2700AF4201 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03569493236BCD2700AF4201 /* SecondViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03569475236BC48C00AF4201 /* Catalina.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Catalina.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03569478236BC48C00AF4201 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		03569479236BC48C00AF4201 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0356947B236BC48D00AF4201 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		0356947C236BC48D00AF4201 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		0356947E236BC48D00AF4201 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0356947F236BC48D00AF4201 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		03569482236BC48D00AF4201 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03569484236BC48D00AF4201 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03569487236BC48D00AF4201 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03569489236BC48D00AF4201 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0356948A236BC48D00AF4201 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03569491236BC49200AF4201 /* Catalina.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Catalina.entitlements; sourceTree = "<group>"; };
+		03569492236BCD2700AF4201 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		03569493236BCD2700AF4201 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03569472236BC48C00AF4201 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0356946C236BC48C00AF4201 = {
+			isa = PBXGroup;
+			children = (
+				03569477236BC48C00AF4201 /* Catalina */,
+				03569476236BC48C00AF4201 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03569476236BC48C00AF4201 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03569475236BC48C00AF4201 /* Catalina.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03569477236BC48C00AF4201 /* Catalina */ = {
+			isa = PBXGroup;
+			children = (
+				03569491236BC49200AF4201 /* Catalina.entitlements */,
+				03569478236BC48C00AF4201 /* AppDelegate.h */,
+				03569479236BC48C00AF4201 /* AppDelegate.m */,
+				0356947B236BC48D00AF4201 /* SceneDelegate.h */,
+				0356947C236BC48D00AF4201 /* SceneDelegate.m */,
+				0356947E236BC48D00AF4201 /* ViewController.h */,
+				0356947F236BC48D00AF4201 /* ViewController.m */,
+				03569481236BC48D00AF4201 /* Main.storyboard */,
+				03569484236BC48D00AF4201 /* Assets.xcassets */,
+				03569486236BC48D00AF4201 /* LaunchScreen.storyboard */,
+				03569489236BC48D00AF4201 /* Info.plist */,
+				0356948A236BC48D00AF4201 /* main.m */,
+				03569492236BCD2700AF4201 /* SecondViewController.h */,
+				03569493236BCD2700AF4201 /* SecondViewController.m */,
+			);
+			path = Catalina;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03569474236BC48C00AF4201 /* Catalina */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0356948E236BC48D00AF4201 /* Build configuration list for PBXNativeTarget "Catalina" */;
+			buildPhases = (
+				03569471236BC48C00AF4201 /* Sources */,
+				03569472236BC48C00AF4201 /* Frameworks */,
+				03569473236BC48C00AF4201 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Catalina;
+			productName = Catalina;
+			productReference = 03569475236BC48C00AF4201 /* Catalina.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0356946D236BC48C00AF4201 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = gaoxiaowei;
+				TargetAttributes = {
+					03569474236BC48C00AF4201 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 03569470236BC48C00AF4201 /* Build configuration list for PBXProject "Catalina" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0356946C236BC48C00AF4201;
+			productRefGroup = 03569476236BC48C00AF4201 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03569474236BC48C00AF4201 /* Catalina */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03569473236BC48C00AF4201 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03569488236BC48D00AF4201 /* LaunchScreen.storyboard in Resources */,
+				03569485236BC48D00AF4201 /* Assets.xcassets in Resources */,
+				03569483236BC48D00AF4201 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03569471236BC48C00AF4201 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03569494236BCD2700AF4201 /* SecondViewController.m in Sources */,
+				03569480236BC48D00AF4201 /* ViewController.m in Sources */,
+				0356947A236BC48C00AF4201 /* AppDelegate.m in Sources */,
+				0356948B236BC48D00AF4201 /* main.m in Sources */,
+				0356947D236BC48D00AF4201 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		03569481236BC48D00AF4201 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03569482236BC48D00AF4201 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03569486236BC48D00AF4201 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03569487236BC48D00AF4201 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0356948C236BC48D00AF4201 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0356948D236BC48D00AF4201 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0356948F236BC48D00AF4201 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Catalina/Catalina.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				DEVELOPMENT_TEAM = 8D67R8D3MU;
+				INFOPLIST_FILE = Catalina/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hotVpn.Catalina;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03569490236BC48D00AF4201 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Catalina/Catalina.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				DEVELOPMENT_TEAM = 8D67R8D3MU;
+				INFOPLIST_FILE = Catalina/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hotVpn.Catalina;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03569470236BC48C00AF4201 /* Build configuration list for PBXProject "Catalina" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0356948C236BC48D00AF4201 /* Debug */,
+				0356948D236BC48D00AF4201 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0356948E236BC48D00AF4201 /* Build configuration list for PBXNativeTarget "Catalina" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0356948F236BC48D00AF4201 /* Debug */,
+				03569490236BC48D00AF4201 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0356946D236BC48C00AF4201 /* Project object */;
+}
